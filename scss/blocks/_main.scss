@@ -1,0 +1,385 @@
+/* main section */
+
+.site__main{
+    z-index: 1;
+
+    width: 100%;
+    margin-top: 60px;
+ 
+}
+.site-user__section{
+    width: 100%;
+    padding-bottom: 60px;
+
+}
+.main__about-user{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+}
+.about-user__date{
+    width: 500px;
+}
+.site-main__resume-down-btn{
+    width: 208px;
+    height: 47px;
+
+    border: none;
+    border-radius: 2px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    background: #FF6464;
+    color: #FFFFFF;
+}
+.site-user__section{
+    background: #fff;
+}
+.recent-posts__section{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: #EDF7FA;
+}
+.pages__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pages__link{
+    text-decoration: none;
+
+    color: blue;
+}
+.recent-posts__card-list{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.recent-posts__card{
+    max-width: 420px;
+    width: 40%;
+    padding: 10px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+
+}
+.recent-posts__card__title{
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.featured-section__list{
+    width: 100%;
+    list-style: none;
+}
+.featured-list__item{
+    width: 100%;
+
+}
+.list__card{
+    padding: 30px 0;
+
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap:20px ;
+}
+.featured__card-img{
+    height: auto;
+
+}
+.featured-card__body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.featured-card__title{
+    font-size: 30px;
+    margin-top: 0px;
+    color: #21243D;
+
+}
+.featured-card__catigoreis{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+
+}
+.featured-card__year{
+    padding:5px 10px;
+    margin-right: 30px;
+    background: #142850;
+    color: #fff;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.featured-card__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.site__footer{
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer___list{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    list-style: none;
+}
+.footer__list-link{
+    text-decoration: none;
+}
+.site__year{
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+}
+.blok-page__section{
+    background: #fff;
+}
+.blok-list{
+    width: 100%;
+}
+.blok-list__card{
+    width: 100%;
+    max-width: 650px;
+}
+.recent-posts__data{ 
+
+    font-size: 20px;
+    line-height: 29px;
+span{
+    color: #8695A4;
+}
+}
+.works-detail__page{
+    text-align: center;
+}
+.works-detail__header{
+    width: 100%;
+    max-width: 595px;
+    text-align: start;
+}
+.works__detail__data{
+    background: #FF7C7C;
+}
+.works-detail__img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media only screen and(max-width:900px){
+    
+    .site__main{
+        margin-top: 100px;
+    }
+       .about-user__date{
+           width: 400px;
+       }
+       .site-main__resume-down-btn{
+           width: 180px;
+           height: 40px;
+
+           font-size: 16px;
+       }
+       .site-main__user-img{
+        width: 250px;
+        height: 250px;
+       }
+
+    
+}
+
+@media only screen and(max-width:750px){
+    .site__main{
+        margin-top: 100px;
+    }
+    .about-user__date{
+        width: 350px;
+    }
+    .site-main__resume-down-btn{
+        width: 150px;
+        height: 30px;
+
+        font-size: 14px;
+    }
+    .site-main__user-img{
+     width: 230px;
+     height: 230px;
+    }
+
+    .recent-posts__card-list{
+        justify-content: center;
+    
+    }
+    .recent-posts__card{
+        justify-content: center;
+        max-width: 420px;
+        width: 90%;
+    }
+
+ 
+}
+@media only screen and(max-width:650px){
+    .site__main{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .site-main__resume-down-btn{
+        width: 150px;
+        height: 30px;
+
+        font-size: 14px;
+    }
+    .site-main__user-img{
+     width: 230px;
+     height: 230px;
+    }
+    .featured-section__list{
+        padding: 0;
+    }
+
+    .list__card{
+        flex-direction: column;
+        padding: 0;
+    }
+    .featured__card-img{
+        width: 100%;
+    
+    }
+    .blok-page__card-title{
+        font-size: 22px;
+    }
+    .recent-posts__data{
+        font-size: 20px;
+    }
+
+ 
+}
+@media only screen and(max-width:530px){
+    .site__main{
+        margin-top: 120px;
+    }
+    .main__about-user{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-user__date{
+        width: 300px;
+    }
+    .site-main__resume-down-btn{
+        width: 150px;
+        height: 30px;
+
+        font-size: 14px;
+    }
+    .site-main__user-img{
+     width: 200px;
+     height: 200px;
+    }
+    .blok-page__card-title{
+        font-size: 20px;
+    }
+    .recent-posts__data{
+        font-size: 18px;
+    }
+    .recent-posts__card__text{
+        font-size: 14px;
+    }
+    .works-detail-page__title{
+        font-size: 34px;
+    }
+    .works-detail-page__data{
+        font-size: 16px;
+    }
+
+ 
+}
+@media only screen and(max-width:430px){
+    .blok-page__card-title{
+        font-size: 18px;
+    }
+    .recent-posts__data{
+        font-size: 16px;
+    }
+    .recent-posts__card__text{
+        font-size: 12px;
+    }
+    .works-detail-page__title{
+        font-size: 30px;
+    }
+
+}
+@media only screen and(max-width:350px){
+    .site__main{
+        margin-top: 70px;
+        padding-top: 0px ;
+    }
+    .main__about-user{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-user__date{
+        width: 100%;
+    }
+    .site-main__resume-down-btn{
+        width: 100px;
+        height: 30px;
+
+        font-size: 10px;
+    }
+    .featured-card__title{
+        font-size: 24px;
+
+    }
+    .featured-card__catigoreis{
+        font-size: 16px;
+    }
+    .blok-page__card-title{
+        font-size: 16px;
+    }
+    .recent-posts__data{
+        font-size: 14px;
+    }
+    .recent-posts__card__text{
+        font-size: 10px;
+    }
+    .works-detail-page__title{
+        font-size: 26px;
+    }
+
+
+
+ 
+}
